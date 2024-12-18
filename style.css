@@ -1,63 +1,47 @@
-header {
-    text-align: center;
-}
-
-.ultratitle {
-    padding: 2%;
-    background-color: #3c4858 ;
-    color: #338eda ;
-}
-
-.subtitleprincipal {
-    display: flex;
-    align-items: center;
-    gap: 3%; 
-}
-
-.imagenLogoHackClub {
-    padding-top: -1%;
-}
-
-.headline {
-    font-size: 150%;
-    margin: 0;
-    padding: 1.5%;
-    font-weight: bold;
-}
-
-.boton {
-    text-align: center;
-    padding-top: 2%;
-    padding-bottom: 2%;
+body {
+    background-color: black;
 }
 
 .card {
-    display: flex;
-    align-items: center;
+    background-color: rgb(0, 0, 68);
+    padding: 3%;
     margin: 2%;
+    border-radius: 10px;
+    color: greenyellow;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.card p {
+.titleHeader {
+    text-align: left;
+    color: greenyellow;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Logo{
+    text-align: right;
+    width: 20%;
+    height: 20%;
+}
+
+.flex-container { 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around;
+} 
+
+.subdivition { 
+    border-color: greenyellow; 
+    border-style: solid; 
+    border-radius: 15px; 
+    border-width: 2px; 
+    margin: 2%; 
     flex: 1;
-    margin: 0;
-}
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5%;
-    border-radius: 4%;
-    box-shadow: 2% rgba(0, 0, 0, 0.1);
+    color: greenyellow;
     text-align: center;
-    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: transform 0.3s
 }
 
-.row img {
-    width: 60%;
-    height: 40%;
-    border-radius: 5%;
-}
-
-button {
-    
+.subdivition:hover{
+    transform: scale(1.1);
 }
